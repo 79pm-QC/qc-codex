@@ -3,26 +3,31 @@ module.exports = {
     {
       type: 'doc',
       id: 'intro',
+      label: 'Qualian Codex',
     },
+
     {
       type: 'category',
       label: 'Master Codex',
-      items: [],
+      items: ['intro'],
     },
+
     {
       type: 'category',
       label: 'Science Codex',
-      items: [],
+      items: ['intro'],
     },
+
     {
       type: 'category',
       label: 'Practice Codex',
-      items: [],
+      items: ['intro'],
     },
+
     {
       type: 'category',
       label: 'Applications',
-      items: [],
+      items: ['intro'],
     },
   ],
 };
