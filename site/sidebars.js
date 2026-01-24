@@ -3,7 +3,6 @@ module.exports = {
     {
       type: 'doc',
       id: 'intro',
-      label: 'Qualian Codex',
     },
     {
       type: 'category',
