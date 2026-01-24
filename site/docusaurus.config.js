@@ -1,27 +1,23 @@
 // @ts-check
 const {themes} = require('prism-react-renderer');
 
-const lightCodeTheme = themes.github;
-const darkCodeTheme = themes.dracula;
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: 'Qualian Codex',
   tagline: 'QC documentation',
   favicon: 'img/favicon.ico',
 
-  // Your production site URL
   url: 'https://79pm-qc.github.io',
-  // For GitHub project pages, baseUrl must be '/<repo>/'
   baseUrl: '/qc-codex/',
 
-  // GitHub pages deployment config.
-  organizationName: '79pm-QC', // GitHub org/user name
-  projectName: 'qc-codex',     // repo name
+  organizationName: '79pm-QC',
+  projectName: 'qc-codex',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // If you ever use i18n later, keep default simple for now
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -53,35 +49,15 @@ const darkCodeTheme = themes.dracula;
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'codexSidebar',
             position: 'left',
-            label: 'Docs',
-          },
-          {
-            href: 'https://github.com/79pm-QC/qc-codex',
-            label: 'GitHub',
-            position: 'right',
+            label: 'Codex',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Intro',
-                to: '/docs/intro',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} 79pm-QC`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.github,
+        darkTheme: themes.dracula,
       },
     }),
 };
