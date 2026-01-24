@@ -1,5 +1,5 @@
 module.exports = {
-  codexSidebar: [
+  tutorialSidebar: [
     {
       type: 'doc',
       id: 'intro',
