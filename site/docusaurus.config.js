@@ -31,6 +31,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs',
+          sidebarId: 'codexSidebar',
           editUrl: 'https://github.com/79pm-QC/qc-codex/tree/main/site/',
         },
         blog: false,
