@@ -1,5 +1,8 @@
 // @ts-check
-const {themes} = require('prism-react-renderer');
+const { themes } = require('prism-react-renderer');
+
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -7,15 +10,16 @@ const config = {
   tagline: 'QC documentation',
   favicon: 'img/favicon.ico',
 
+  // Your GitHub Pages URL (user site)
   url: 'https://79pm-qc.github.io',
+  // Repo name must be the baseUrl for project pages
   baseUrl: '/qc-codex/',
 
   organizationName: '79pm-QC',
   projectName: 'qc-codex',
-  deploymentBranch: 'gh-pages',
-  trailingSlash: false,
 
   onBrokenLinks: 'throw',
+  // Keep this as warn for now so the build doesn’t fail on missing links while you’re setting up
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -31,7 +35,6 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs',
-          sidebarId: 'codexSidebar',
           editUrl: 'https://github.com/79pm-QC/qc-codex/tree/main/site/',
         },
         blog: false,
@@ -54,11 +57,20 @@ const config = {
             position: 'left',
             label: 'Codex',
           },
+          {
+            href: 'https://github.com/79pm-QC/qc-codex',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
+      footer: {
+        style: 'dark',
+        copyright: `Copyright © ${new Date().getFullYear()} 79pm-QC`,
+      },
       prism: {
-        theme: themes.github,
-        darkTheme: themes.dracula,
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
       },
     }),
 };
