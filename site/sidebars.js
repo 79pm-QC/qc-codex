@@ -5,10 +5,5 @@ module.exports = {
       id: 'intro',
       label: 'Introduction',
     },
-    {
-      type: 'category',
-      label: 'Tools',
-      items: [],
-    },
   ],
 };
