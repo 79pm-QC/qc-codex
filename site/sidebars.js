@@ -1,13 +1,14 @@
 module.exports = {
   codexSidebar: [
-    { type: 'doc', id: 'intro', label: 'Qualian Codex' },
-
+    {
+      type: 'doc',
+      id: 'intro',
+      label: 'Introduction',
+    },
     {
       type: 'category',
       label: 'Tools',
-      items: [
-        'tools/ccm-analyzer-lite',
-      ],
+      items: [],
     },
   ],
 };
