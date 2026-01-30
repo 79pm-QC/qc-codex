@@ -5,7 +5,9 @@ module.exports = {
     {
       type: 'category',
       label: 'Tools',
-      items: [],
+      items: [
+        'tools/ccm-analyzer-lite',
+      ],
     },
   ],
 };
