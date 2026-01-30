@@ -186,3 +186,20 @@ flowchart LR
   I["Intervention"]
   I --> C
   I --> M
+
+Important notice
+This tool is informational and educational only.
+It is not medical, legal, or professional advice.
+If you are in crisis or at risk of harm, contact local emergency services or a qualified professional.
+Outputs are heuristic and may be wrong.
+Use them as prompts for reflection and small experiments.
+Privacy
+In the Lite version:
+Text is processed locally in your browser
+No data is stored
+No data is transmitted
+(If this changes in future versions, this notice will change.)
+Version
+Analyzer Lite v0.1
+Constraint–Collapse Model (CCM)
+Qualian Codex Tools
