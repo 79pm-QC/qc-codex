@@ -21,3 +21,212 @@ This is the guided entry for new readers.
 2. Two maps  
 3. Core axioms  
 4. Assistant portal
+
+/* ===== QC Editorial Minimal Theme ===== */
+
+.qc-page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 48px 20px 72px;
+}
+
+.qc-page-narrow {
+  max-width: 920px;
+}
+
+.qc-hero {
+  padding: 18px 0 28px;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+.qc-hero-kicker {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: 12px;
+}
+
+.qc-hero-title {
+  font-size: 44px;
+  line-height: 1.06;
+  margin: 0 0 14px;
+}
+
+.qc-hero-subtitle {
+  font-size: 18px;
+  line-height: 1.55;
+  max-width: 70ch;
+  opacity: 0.9;
+  margin: 0 0 18px;
+}
+
+.qc-hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 10px 0 14px;
+}
+
+.qc-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--ifm-toc-border-color);
+}
+
+.qc-button-primary {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  border-color: var(--ifm-color-primary);
+}
+
+.qc-button-secondary {
+  background: transparent;
+  color: var(--ifm-font-color-base);
+}
+
+.qc-button-tertiary {
+  background: transparent;
+  opacity: 0.9;
+}
+
+.qc-hero-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.qc-pill {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-toc-border-color);
+  opacity: 0.85;
+}
+
+.qc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  padding: 22px 0;
+}
+
+.qc-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.qc-card {
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 14px;
+  padding: 14px 14px 12px;
+  background: var(--ifm-background-surface-color);
+  min-height: 142px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.qc-card-title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.qc-card-body {
+  opacity: 0.92;
+  line-height: 1.5;
+}
+
+.qc-card-footer {
+  margin-top: 10px;
+}
+
+.qc-link {
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.qc-split {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 18px;
+  padding: 18px 0 0;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.qc-h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+.qc-p {
+  margin: 0 0 10px;
+  line-height: 1.55;
+  opacity: 0.92;
+}
+
+.qc-note {
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.qc-note-title {
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.qc-note-body {
+  line-height: 1.55;
+  opacity: 0.92;
+}
+
+.qc-note-small {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.qc-note-margin {
+  margin-top: 18px;
+}
+
+.qc-actions-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 16px 0 0;
+}
+
+.qc-footer {
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 1px solid var(--ifm-toc-border-color);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.qc-footer-title {
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.qc-footer-text {
+  opacity: 0.9;
+  max-width: 72ch;
+}
+
+@media (max-width: 900px) {
+  .qc-hero-title { font-size: 36px; }
+  .qc-grid { grid-template-columns: 1fr; }
+  .qc-grid-2 { grid-template-columns: 1fr; }
+  .qc-split { grid-template-columns: 1fr; }
+}
+
