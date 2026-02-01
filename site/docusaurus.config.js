@@ -53,7 +53,7 @@ const config = {
         items: [
   { to: '/', label: 'Home', position: 'left' },
   { to: '/docs/start-here', label: 'Start Here', position: 'left' },
-  { type: 'docSidebar', sidebarId: 'codexSidebar', position: 'left', label: 'Codex' },
+  { to: '/docs/start-here', label: 'Qualian Codex', position: 'left' },
   { to: '/qc-assistant', label: 'QC Assistant', position: 'left' },
   { href: 'https://github.com/79pm-QC/qc-codex', label: 'GitHub', position: 'right' },
 ],
