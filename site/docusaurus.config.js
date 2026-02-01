@@ -51,18 +51,12 @@ const config = {
       navbar: {
         title: 'Qualian Codex',
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'codexSidebar',
-            position: 'left',
-            label: 'Codex',
-          },
-          {
-            href: 'https://github.com/79pm-QC/qc-codex',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+  { to: '/', label: 'Home', position: 'left' },
+  { to: '/docs/start-here', label: 'Start Here', position: 'left' },
+  { type: 'docSidebar', sidebarId: 'codexSidebar', position: 'left', label: 'Codex' },
+  { to: '/qc-assistant', label: 'QC Assistant', position: 'left' },
+  { href: 'https://github.com/79pm-QC/qc-codex', label: 'GitHub', position: 'right' },
+],
       },
       footer: {
         style: 'dark',
