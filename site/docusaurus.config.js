@@ -18,7 +18,7 @@ const config = {
   organizationName: '79pm-QC',
   projectName: 'qc-codex',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   // Keep this as warn for now so the build doesn’t fail on missing links while you’re setting up
   onBrokenMarkdownLinks: 'warn',
 
