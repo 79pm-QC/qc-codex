@@ -160,3 +160,43 @@ export default function QCAssistant() {
   );
 }
 
+<hr style={{ margin: '3rem 0' }} />
+
+<details style={{ fontSize: '0.9rem', opacity: 0.85 }}>
+  <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
+    Privacy & Terms
+  </summary>
+
+  <div style={{ marginTop: '1rem', lineHeight: 1.6 }}>
+    <p>
+      The QC Assistant is a guidance interface designed to help you navigate
+      the Qualian Codex using constraint-based explanations and plain language.
+    </p>
+
+    <p>
+      The Assistant does not store personal conversations, does not learn from
+      individual users, and does not modify or extend the Qualian Codex.
+    </p>
+
+    <p>
+      Conversations occur through the hosting AI platform and are subject to
+      that platform’s own privacy policies. Do not share sensitive or personal
+      information.
+    </p>
+
+    <p>
+      The Qualian Codex is a fixed body of work. The Assistant may explain or
+      reference Codex material but cannot alter it.
+    </p>
+
+    <p>
+      Output is provided for informational and exploratory purposes only.
+    </p>
+
+    <p>
+      <a href="/privacy">Privacy Policy</a> ·{' '}
+      <a href="/terms">Terms of Use</a>
+    </p>
+  </div>
+</details>
+
