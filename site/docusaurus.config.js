@@ -49,24 +49,28 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Qualian Codex',
-        items: [
-  { to: '/', label: 'Home', position: 'left' },
-  { to: '/docs/start-here', label: 'Start Here', position: 'left' },
-  { to: '/docs/start-here', label: 'Qualian Codex', position: 'left' },
-  { to: '/qc-assistant', label: 'QC Assistant', position: 'left' },
-  { href: 'https://github.com/79pm-QC/qc-codex', label: 'GitHub', position: 'right' },
-],
-      },
-      footer: {
-        style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} 79pm-QC`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
-};
-
+  title: 'Qualian Codex',
+  items: [
+    {
+      to: '/',
+      label: 'Home',
+      position: 'left',
+    },
+    {
+      to: '/docs/start-here',
+      label: 'Start Here',
+      position: 'left',
+    },
+    {
+      to: '/qc-assistant',
+      label: 'QC Assistant',
+      position: 'left',
+    },
+    {
+      href: 'https://github.com/79pm-QC/qc-codex',
+      label: 'GitHub',
+      position: 'right',
+    },
+  ],
+},
 module.exports = config;
