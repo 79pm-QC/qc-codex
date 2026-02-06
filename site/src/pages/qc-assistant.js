@@ -150,11 +150,7 @@ export default function QCAssistant() {
           @media (max-width: 900px) {
             main { padding-top: 2rem !important; }
           }
-          @media (max-width: 860px) {
-            section[style*="grid-template-columns: repeat(2"] { grid-template-columns: 1fr !important; }
-            section div[style*="grid-template-columns: repeat(3"] { grid-template-columns: 1fr !important; }
-          }
-        `}</style>
+          
 <hr style={{ margin: '3rem 0' }} />
 
 <details style={{ fontSize: '0.9rem', opacity: 0.85 }}>
