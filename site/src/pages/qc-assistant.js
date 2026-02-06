@@ -147,10 +147,10 @@ export default function QCAssistant() {
         </section>
 
         <style>{`
-          @media (max-width: 900px) {
-            main { padding-top: 2rem !important; }
-          }
-          
+  @media (max-width: 900px) {
+    main { padding-top: 2rem !important; }
+  }
+`}</style>
 <hr style={{ margin: '3rem 0' }} />
 
 <details style={{ fontSize: '0.9rem', opacity: 0.85 }}>
