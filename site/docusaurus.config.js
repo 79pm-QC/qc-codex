@@ -46,31 +46,31 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-  title: 'Qualian Codex',
-  items: [
-    {
-      to: '/',
-      label: 'Home',
-      position: 'left',
-    },
-    {
-      to: '/docs/start-here',
-      label: 'Start Here',
-      position: 'left',
-    },
-    {
-      to: '/qc-assistant',
-      label: 'QC Assistant',
-      position: 'left',
-    },
-    {
-      href: 'https://github.com/79pm-QC/qc-codex',
-      label: 'GitHub',
-      position: 'right',
-    },
-  ],
+    /** @type {themeConfig: {
+  navbar: {
+    title: 'Qualian Codex',
+    items: [
+      {
+        to: '/',
+        label: 'Home',
+        position: 'left',
+      },
+      {
+        to: '/docs/start-here',
+        label: 'Start Here',
+        position: 'left',
+      },
+      {
+        to: '/qc-assistant',
+        label: 'QC Assistant',
+        position: 'left',
+      },
+      {
+        href: 'https://github.com/79pm-QC/qc-codex',
+        label: 'GitHub',
+        position: 'right',
+      },
+    ],
+  },
 },
 
