@@ -45,8 +45,7 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {themeConfig: {
+ themeConfig: {
   navbar: {
     title: 'Qualian Codex',
     items: [
