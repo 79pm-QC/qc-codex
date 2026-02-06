@@ -5,7 +5,7 @@ import styles from './index.module.css';
 
 export default function Home() {
   return (
-    <Layout title="Qualian Codex" description="Awareness-first frameworks, tools, and documentation.">
+    <Layout title="Qualian Codex" description="Constraint-based frameworks, tools, and documentation.">
       <main className={styles.hero}>
         <div className={styles.container}>
           <div className={styles.kicker}>Qualian Codex</div>
