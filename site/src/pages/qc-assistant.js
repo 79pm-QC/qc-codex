@@ -158,13 +158,33 @@ export default function QCAssistant() {
 <hr style={{ margin: '3rem 0' }} />
 
 <details style={{ fontSize: '0.9rem', opacity: 0.85 }}>
-  <summary ...>Privacy & Terms</summary>
-  <div>...</div>
+  <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
+    Privacy &amp; Terms
+  </summary>
+
+  <div style={{ marginTop: '1rem', lineHeight: 1.6 }}>
+    <p>
+      The QC Assistant is a guidance interface designed to help you navigate the
+      Qualian Codex using constraint-based explanations and plain language.
+    </p>
+
+    <p>
+      The Assistant does not store personal conversations, does not learn from
+      individual users, and does not modify or extend the Qualian Codex.
+    </p>
+
+    <p>
+      Conversations occur through the hosting AI platform and are subject to that
+      platform’s own privacy policies. Do not share sensitive or personal
+      information.
+    </p>
+
+    <p>
+      Privacy: <a href="https://veran.neocities.org/privacy.html">veran.neocities.org/privacy.html</a><br />
+      Terms: <a href="https://veran.neocities.org/terms.html">veran.neocities.org/terms.html</a>
+    </p>
+  </div>
 </details>
-      </main>
-    </Layout>
-  );
-}
 
 
 
