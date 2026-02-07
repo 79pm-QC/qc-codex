@@ -24,6 +24,25 @@ A structured output in four parts:
 3) **Levers (L)** — smallest actions that can change the constraint profile.
 4) **Next Experiment (E)** — one low-risk test to run within 24–72 hours.
 
+How to Use Analyzer Lite
+Analyzer Lite is intended for diagnosis, not solution-design.
+Use it when:
+A situation feels stuck, drifting, or brittle.
+Outcomes persist despite effort.
+You need a small, testable next move, not a theory.
+Do not use it when:
+The problem is already well-defined and fully instrumented.
+You are seeking motivation, meaning, or certainty.
+You want a complete model or long-term plan.
+Analyzer Lite will:
+Reframe situations as constraint patterns.
+Surface likely structural blockers.
+Propose one low-risk experiment to generate signal.
+Analyzer Lite will not:
+Explain intent, intelligence, or mindset.
+Replace detailed analysis or engineering work.
+Guarantee improvement — only insight.
+
 ### Example 1: Analyzer Lite in Use
 Input (what the user writes)
 I feel stuck at work. I’m busy all day but not making progress on the things that matter. I’ve tried reorganising my task list and working longer hours, but I still end each week frustrated. I want to feel momentum again, but something keeps blocking it and I can’t see what.
