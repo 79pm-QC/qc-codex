@@ -28,21 +28,26 @@ Example: Analyzer Lite in Use
 Input (what the user writes)
 I feel stuck at work. I’m busy all day but not making progress on the things that matter. I’ve tried reorganising my task list and working longer hours, but I still end each week frustrated. I want to feel momentum again, but something keeps blocking it and I can’t see what.
 Analyzer Output
+
 1. Observed Outcome (S)
 You are active but not progressing toward your priorities. Effort is high; impact is low.
+
 2. Constraints (C)
 Task environment rewards responsiveness over depth.
 Time is fragmented by interruptions and context switching.
 Success criteria are vague, so effort is misdirected.
 Energy is spent managing workload rather than shaping it.
+
 3. Levers (L)
 Introduce one protected block of uninterrupted work per day.
 Reduce visible commitments during that block.
 Define a single weekly outcome that matters more than activity.
+
 4. Next Experiment (E)
 For the next three days, block 60 minutes each morning for one clearly defined task.
 During that time, disable notifications and decline new requests.
 At the end of each day, note whether progress—not busyness—occurred.
+
 Why this helps
 Analyzer Lite does not try to solve motivation or mindset directly.
 It reframes the problem as a constraint pattern: high activity under misaligned limits.
@@ -60,7 +65,6 @@ Feedback loops favour recent data and suppress long-tail variation.
 Monitoring focuses on outputs, not internal constraint balance.
 Deployment pressure limits retraining, rollback, or exploratory testing.
 
-Add Analyzer Lite worked examples (human + AI drift)
 Levers (L)
 Introduce a secondary evaluation metric that penalises instability over time.
 Expand monitoring to include variance and failure-mode clustering, not just averages.
@@ -70,8 +74,9 @@ For one evaluation window, add a drift-sensitivity metric to the monitoring pipe
 Why this helps
 Analyzer Lite does not attempt to interpret intent or intelligence.
 It treats system drift as a constraint problem: sustained optimisation under misaligned limits.
-By identifying where feedback, incentives, and monitoring narrow the solution space, it allows small structural adjustments to restore stability before failure.
+By identifying where feedback, incentives, and monitoring narrow the solution space, it enables small structural adjustments that restore stability before failure.
 The goal is not prediction, but early signal.
+
 Final check (important)
 This example:
 Reinforces that CCM is a diagnostic lens, not a theory of mind
